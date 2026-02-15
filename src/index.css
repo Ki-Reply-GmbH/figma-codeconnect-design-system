@@ -1,0 +1,288 @@
+@import "tailwindcss";
+
+/*
+ * Generali Design System - Tailwind v4 Theme Tokens
+ * Extracted from Figma: Hackathon - Generali Library
+ */
+
+@theme {
+  /* ---- Font family ---- */
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  /* ---- Colors: Primary ---- */
+  --color-primary-red-1: #c21817;
+  --color-primary-red-2: #752126;
+  --color-primary-red-3: #8e1230;
+  --color-primary-red-4: #e9573d;
+  --color-primary-gray: #6f7072;
+
+  /* ---- Colors: Secondary ---- */
+  --color-secondary-red-2: #b15c49;
+  --color-secondary-red-3: #b65a65;
+  --color-secondary-gray: #b0b2b3;
+  --color-secondary-coral: #f09273;
+
+  /* ---- Colors: Neutral ---- */
+  --color-neutral-black: #000000;
+  --color-neutral-white: #ffffff;
+  --color-neutral-gray-1: #404040;
+  --color-neutral-gray-2: #707070;
+  --color-neutral-gray-3: #dedede;
+  --color-neutral-gray-4: #f0f0f0;
+  --color-neutral-gray-5: #f9fafb;
+
+  /* ---- Colors: Link ---- */
+  --color-link-blue: #346eff;
+
+  /* ---- Font sizes ---- */
+  --text-tag: 8px;
+  --text-tag--line-height: 1;
+  --text-tag--letter-spacing: 0.2px;
+
+  --text-caption: 9px;
+  --text-caption--line-height: 1;
+  --text-caption--letter-spacing: 0.2px;
+
+  --text-subtitle: 10px;
+  --text-subtitle--line-height: 1;
+  --text-subtitle--letter-spacing: 0.4px;
+
+  --text-body: 12px;
+  --text-body--line-height: 1;
+  --text-body--letter-spacing: 0.3px;
+
+  --text-button-xs: 14px;
+  --text-button-xs--line-height: 1;
+  --text-button-xs--letter-spacing: 0.5px;
+
+  --text-h4: 16px;
+  --text-h4--line-height: 24px;
+  --text-h4--letter-spacing: 0.2px;
+
+  --text-h3-xs: 18px;
+  --text-h3-xs--line-height: 1;
+  --text-h3-xs--letter-spacing: 0.5px;
+
+  --text-h3: 20px;
+  --text-h3--line-height: 1;
+  --text-h3--letter-spacing: 0.5px;
+
+  --text-h2-xs: 24px;
+  --text-h2-xs--line-height: 1;
+  --text-h2-xs--letter-spacing: 0.875px;
+
+  --text-h2: 28px;
+  --text-h2--line-height: 1;
+  --text-h2--letter-spacing: 0.875px;
+
+  --text-h1: 44px;
+  --text-h1--line-height: 1;
+  --text-h1--letter-spacing: 1.375px;
+
+  --text-callout: 56px;
+  --text-callout--line-height: 1;
+  --text-callout--letter-spacing: 1.3125px;
+
+  /* ---- Letter spacing ---- */
+  --tracking-tight: 0.2px;
+  --tracking-body: 0.3px;
+  --tracking-subtitle: 0.4px;
+  --tracking-button: 0.5px;
+  --tracking-h2: 0.875px;
+  --tracking-callout: 1.3125px;
+  --tracking-h1: 1.375px;
+
+  /* ---- Spacing ---- */
+  --spacing-1: 4px;
+  --spacing-1_5: 6px;
+  --spacing-2: 8px;
+  --spacing-2_25: 9px;
+  --spacing-3: 12px;
+  --spacing-3_5: 14px;
+  --spacing-3_75: 15px;
+  --spacing-4: 16px;
+  --spacing-5_5: 22px;
+  --spacing-6: 24px;
+
+  /* ---- Border radius ---- */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 5px;
+}
+
+/* =============================================
+   BASE STYLES
+   ============================================= */
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+}
+
+/* =============================================
+   TYPOGRAPHY UTILITY CLASSES
+   Generali Design System text styles.
+   M/S = Desktop/Tablet, XS = Mobile.
+   ============================================= */
+
+/* --- Call Out --- */
+.text-callout {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.3125px;
+}
+
+/* --- H1 --- */
+.text-h1 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.375px;
+}
+
+/* --- H2 --- */
+.text-h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.875px;
+}
+
+.text-h2-xs {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.875px;
+}
+
+/* --- H3 --- */
+.text-h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+.text-h3-xs {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+/* --- H4 --- */
+.text-h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.text-h4-xs {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+/* --- H5 / Subtitle --- */
+.text-subtitle {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.text-subtitle-xs {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+/* --- Body --- */
+.text-body {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.3px;
+}
+
+.text-body-xs {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* --- Button --- */
+.text-button {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+.text-button-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.text-button-xs {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+/* --- Caption --- */
+.text-caption {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.2px;
+}
+
+.text-caption-xs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.2px;
+}
+
+.text-caption-xs-caps {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+/* --- Tag --- */
+.text-tag {
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.text-tag-xs {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}

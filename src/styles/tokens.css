@@ -1,0 +1,113 @@
+/*
+ * Generali Design System - CSS Custom Properties
+ * Extracted from Figma: Hackathon - Generali Library
+ *
+ * These tokens serve as a CSS-only fallback independent of Tailwind.
+ * Import this file in your entry point if you need raw custom properties.
+ */
+
+:root {
+  /* =============================================
+     COLORS
+     ============================================= */
+
+  /* Primary */
+  --color-primary-red-1: #c21817;
+  --color-primary-red-2: #752126;
+  --color-primary-red-3: #8e1230;
+  --color-primary-red-4: #e9573d;
+  --color-primary-gray: #6f7072;
+
+  /* Secondary */
+  --color-secondary-red-2: #b15c49;
+  --color-secondary-red-3: #b65a65;
+  --color-secondary-red-4: #f09273;
+  --color-secondary-gray: #b0b2b3;
+  --color-secondary-coral: #f09273; /* alias – Figma name: Secondary/Red 4 */
+
+  /* Neutral */
+  --color-neutral-black: #000000;
+  --color-neutral-white: #ffffff;
+  --color-neutral-gray-1: #404040;
+  --color-neutral-gray-2: #707070;
+  --color-neutral-gray-3: #dedede;
+  --color-neutral-gray-4: #f0f0f0;
+  --color-neutral-gray-5: #f9fafb;
+
+  /* Link */
+  --color-link-blue: #346eff;
+
+  /* =============================================
+     TYPOGRAPHY
+     ============================================= */
+
+  /* Font families */
+  --font-family-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Font sizes */
+  --font-size-tag: 8px;
+  --font-size-tag-xs: 9px;
+  --font-size-caption: 9px;
+  --font-size-caption-xs: 12px;
+  --font-size-subtitle: 10px;
+  --font-size-body: 12px;
+  --font-size-body-xs: 16px;
+  --font-size-button-m: 12px;
+  --font-size-button-xs: 14px;
+  --font-size-button-link: 14px;
+  --font-size-button-link-s: 12px;
+  --font-size-h5-subtitle-xs: 14px;
+  --font-size-h4: 16px;
+  --font-size-h4-xs: 14px;
+  --font-size-h3-xs: 18px;
+  --font-size-h3: 20px;
+  --font-size-h2-xs: 28px;
+  --font-size-h2: 28px;
+  --font-size-h1: 44px;
+  --font-size-callout: 56px;
+
+  /* Line heights */
+  --line-height-tight: 1;
+  --line-height-body-xs: 1.3;
+  --line-height-h4: 24px;
+
+  /* Letter spacing */
+  --letter-spacing-tight: 0.2px;
+  --letter-spacing-body: 0.3px;
+  --letter-spacing-subtitle: 0.4px;
+  --letter-spacing-button: 0.5px;
+  --letter-spacing-h2: 0.875px;
+  --letter-spacing-callout: 1.3125px;
+  --letter-spacing-h1: 1.375px;
+
+  /* =============================================
+     SPACING
+     ============================================= */
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-2-25: 9px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-3-75: 15px;
+  --spacing-4: 16px;
+  --spacing-5-5: 22px;
+  --spacing-6: 24px;
+
+  /* =============================================
+     BORDER RADIUS
+     ============================================= */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 5px;
+
+  /* =============================================
+     SHADOWS
+     ============================================= */
+  --shadow-card: 0 2px 6px 6px rgba(0, 0, 0, 0.02);
+}
