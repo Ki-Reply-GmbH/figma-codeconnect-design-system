@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "figma-desktop": {
+      "type": "http",
+      "url": "http://172.17.96.1:3845/mcp"
+    }
+  }
+}
