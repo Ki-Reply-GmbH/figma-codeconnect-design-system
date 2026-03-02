@@ -1,0 +1,730 @@
+{
+  "figmaFile": {
+    "key": "21fetEK2ibhq1gwmu2s9SL",
+    "name": "Hackathon - Generali Library",
+    "page": "Design System (generali)",
+    "pageNodeId": "212:560"
+  },
+  "sections": [
+    {
+      "name": "Buttons",
+      "nodeId": "223:654",
+      "componentSets": [
+        {
+          "name": "CTA Button",
+          "firstVariantId": "223:675",
+          "variantCount": 73,
+          "properties": {
+            "Size": { "type": "enum", "values": ["S", "XS"] },
+            "Type": { "type": "enum", "values": ["Primary", "Secondary", "Tertiary"] },
+            "Family": { "type": "enum", "values": ["Red", "Black", "White"] },
+            "Content": { "type": "enum", "values": ["Onlytext", "Onlyicon", "Text+icon"] },
+            "Status": { "type": "enum", "values": ["Enabled", "Hover", "Pressed", "Disabled"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Floating Buttons",
+      "nodeId": "223:841",
+      "componentSets": [
+        {
+          "name": "Circle Button",
+          "firstVariantId": "223:850",
+          "variantCount": 6,
+          "properties": {
+            "type": { "type": "enum", "values": ["circle"] },
+            "size": { "type": "enum", "values": ["M"] },
+            "family": { "type": "enum", "values": ["black", "white"] },
+            "status": { "type": "enum", "values": ["enabled", "hover", "pressed", "disabled"] },
+            "Direction": { "type": "enum", "values": ["Left", "Right"] }
+          }
+        },
+        {
+          "name": "Quick Action FAB",
+          "firstVariantId": "223:866",
+          "variantCount": 4,
+          "properties": {
+            "size": { "type": "enum", "values": ["XS"] },
+            "family": { "type": "enum", "values": ["black", "white"] },
+            "status": { "type": "enum", "values": ["closed", "open"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Toggle Buttons",
+      "nodeId": "223:880",
+      "componentSets": [
+        {
+          "name": "Toggle",
+          "firstVariantId": "223:886",
+          "variantCount": 4,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["Big", "Small"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["enabled", "disabled"], "suggestedName": "status" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Links",
+      "nodeId": "223:902",
+      "componentSets": [
+        {
+          "name": "Basic Link",
+          "firstVariantId": "223:928",
+          "variantCount": 18,
+          "properties": {
+            "family": { "type": "enum", "values": ["black", "blue", "white"] },
+            "type": { "type": "enum", "values": ["default", "inline", "text+left icon", "text+right icon"] },
+            "status": { "type": "enum", "values": ["enabled", "hover", "pressed"] }
+          }
+        },
+        {
+          "name": "XS Navigation Link",
+          "firstVariantId": "223:986",
+          "variantCount": 4,
+          "properties": {
+            "family": { "type": "enum", "values": ["black"] },
+            "status": { "type": "enum", "values": ["enabled", "hover", "pressed", "selected"] }
+          }
+        },
+        {
+          "name": "Footer Link",
+          "firstVariantId": "223:995",
+          "variantCount": 4,
+          "properties": {
+            "type": { "type": "enum", "values": ["footer"] },
+            "size": { "type": "enum", "values": ["M", "XS"] },
+            "status": { "type": "enum", "values": ["enabled", "hover", "pressed"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Header Dropdowns",
+      "nodeId": "223:1006",
+      "componentSets": [
+        {
+          "name": "Header/dropdown/profile",
+          "firstVariantId": "225:11372",
+          "variantCount": 1,
+          "properties": {}
+        },
+        {
+          "name": "Notification List Element",
+          "firstVariantId": "223:1256",
+          "variantCount": 2,
+          "properties": {
+            "Family": { "type": "enum", "values": ["list element"] },
+            "status": { "type": "enum", "values": ["seen", "unseen"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Infographic",
+      "nodeId": "223:1274",
+      "componentSets": [
+        {
+          "name": "Request Overview",
+          "firstVariantId": "223:1292",
+          "variantCount": 5,
+          "properties": {
+            "type": { "type": "enum", "values": ["request overview"] },
+            "specific": { "type": "enum", "values": ["enabled", "empty", "followed requests", "closed requests", "opened by me requests"] }
+          }
+        },
+        {
+          "name": "Status Bar",
+          "firstVariantId": "223:1336",
+          "variantCount": 6,
+          "properties": {
+            "type": { "type": "enum", "values": ["status bar"] },
+            "dimension": { "type": "enum", "values": ["big", "small"] },
+            "specific": { "type": "enum", "values": ["new", "in progress", "closed"] }
+          }
+        },
+        {
+          "name": "Stepper",
+          "firstVariantId": "223:1360",
+          "variantCount": 8,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["stepper"], "suggestedName": "type" },
+            "Property 2": { "type": "enum", "values": ["blank", "open", "approved", "progress", "hold", "closed", "refused", "denied"], "suggestedName": "status" }
+          }
+        },
+        {
+          "name": "Hover Label Right",
+          "firstVariantId": "223:1277",
+          "variantCount": 1,
+          "properties": {}
+        },
+        {
+          "name": "Hover Label Left",
+          "firstVariantId": "223:1281",
+          "variantCount": 1,
+          "properties": {}
+        },
+        {
+          "name": "Progress Bar",
+          "firstVariantId": "223:1285",
+          "variantCount": 1,
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "name": "Chat Blocks",
+      "nodeId": "223:1523",
+      "componentSets": [
+        {
+          "name": "Chat Block",
+          "firstVariantId": "223:1527",
+          "variantCount": 2,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["XS"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["new request", "in progress"], "suggestedName": "status" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "List Elements",
+      "nodeId": "223:1556",
+      "componentSets": [
+        {
+          "name": "List Element",
+          "firstVariantId": "223:1560",
+          "variantCount": 8,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "S"] },
+            "type": { "type": "enum", "values": ["B&D", "request"] },
+            "extra": { "type": "enum", "values": ["no divider", "with divider"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Searchbars",
+      "nodeId": "223:1642",
+      "componentSets": [
+        {
+          "name": "Searchbar",
+          "firstVariantId": "223:1646",
+          "variantCount": 6,
+          "properties": {
+            "Colour": { "type": "enum", "values": ["black", "white"] },
+            "Status": { "type": "enum", "values": ["enabled", "pressed", "searching"] }
+          }
+        },
+        {
+          "name": "Searchbar Expandable",
+          "firstVariantId": "223:1671",
+          "variantCount": 7,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "XS"] },
+            "status": { "type": "enum", "values": ["closed", "open", "typing", "with input"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "nodeId": "223:1691",
+      "componentSets": [
+        {
+          "name": "Header",
+          "firstVariantId": "223:1695",
+          "variantCount": 15,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "S", "XS"] },
+            "type": { "type": "enum", "values": ["black", "transparent", "white"] },
+            "extra": { "type": "enum", "values": ["-", "OM", "PM", "PM+", "PM_profile", "accounts searchbar", "subheader"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "nodeId": "223:1831",
+      "componentSets": [
+        {
+          "name": "Hero",
+          "firstVariantId": "223:1835",
+          "variantCount": 47,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "S", "XS"] },
+            "level": { "type": "enum", "values": ["first level", "second level"] },
+            "type": { "type": "enum", "values": ["B&D", "FAQ", "S&R", "account management", "adding locations to list", "announcement process", "community", "community post", "direct announcement", "first time access", "general announcement", "hidden page", "profile and notifications settings", "request detail", "request process", "searchbar", "service detail", "urgent announcement"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Calendar",
+      "nodeId": "245:6948",
+      "componentSets": [
+        {
+          "name": "Calendar Day",
+          "firstVariantId": "247:10364",
+          "variantCount": 2,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["Default", "Selected"], "suggestedName": "state" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Footer",
+      "nodeId": "223:2153",
+      "componentSets": [
+        {
+          "name": "Footer",
+          "firstVariantId": "225:9677",
+          "variantCount": 3,
+          "properties": {
+            "Size": { "type": "enum", "values": ["M", "S", "XS"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "nodeId": "223:2345",
+      "componentSets": [
+        {
+          "name": "Accordion M",
+          "firstVariantId": "223:2349",
+          "variantCount": 3,
+          "properties": {
+            "size": { "type": "enum", "values": ["M"] },
+            "specific": { "type": "enum", "values": ["basic", "with divider"] },
+            "status": { "type": "enum", "values": ["closed", "open"] }
+          }
+        },
+        {
+          "name": "Accordion XS",
+          "firstVariantId": "223:2362",
+          "variantCount": 3,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["XS"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["cha", "request"], "suggestedName": "type" },
+            "Property 3": { "type": "enum", "values": ["collapsed", "non collapsed"], "suggestedName": "status" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Icons",
+      "nodeId": "223:2401",
+      "componentSets": [
+        {
+          "name": "Informative & Operation Icons",
+          "firstVariantId": "223:2410",
+          "variantCount": 68,
+          "properties": {
+            "family": { "type": "enum", "values": ["header", "informative", "operation"] },
+            "size": { "type": "enum", "values": ["15", "16", "20", "24", "32"] },
+            "color": { "type": "enum", "values": ["black", "gray", "grey", "half-half", "orange", "pressed", "pressed/enabled", "white"] },
+            "type": { "type": "enum", "values": ["attachment", "calendar", "checkbox selected", "checkbox unselected", "discount", "earth", "edit", "eraser", "expand", "feedback 1", "feedback 2", "feedback 3", "feedback 4", "feedback 5", "food&drink", "hide", "menu", "notification", "notification unseen", "opening hour", "options", "profile", "search bar", "searchbar", "send", "services", "share", "shopping", "stair", "things to do", "tooltip", "upload", "view"] }
+          }
+        },
+        {
+          "name": "Control Icons",
+          "firstVariantId": "223:2549",
+          "variantCount": 89,
+          "properties": {
+            "family": { "type": "enum", "values": ["control"] },
+            "size": { "type": "enum", "values": ["16", "20", "32"] },
+            "Digits": { "type": "enum", "values": ["Double", "Single"] },
+            "color": { "type": "enum", "values": ["black", "blue", "gray", "green", "grey", "light grey", "red 1", "red 3", "white"] },
+            "type": { "type": "enum", "values": ["add", "arrow left", "arrow right", "chevron down", "chevron left", "chevron right", "chevron up", "close", "first page", "last page", "paginator selected", "paginator unselected", "validate", "zoom in", "zoom out"] }
+          }
+        },
+        {
+          "name": "Calendar Date",
+          "firstVariantId": "223:2926",
+          "variantCount": 1,
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "name": "Assets & Illustration",
+      "nodeId": "223:2933",
+      "componentSets": [
+        {
+          "name": "Logos",
+          "firstVariantId": "223:2937",
+          "variantCount": 4,
+          "properties": {
+            "Name": { "type": "enum", "values": ["logo", "logo generali", "world image"] },
+            "Color": { "type": "enum", "values": ["black", "white"] }
+          }
+        },
+        {
+          "name": "Section Illustrations",
+          "firstVariantId": "223:3082",
+          "variantCount": 9,
+          "properties": {
+            "Section": { "type": "enum", "values": ["community", "dashboard", "login", "support"] },
+            "Size": { "type": "enum", "values": ["M", "S"] },
+            "N.": { "type": "enum", "values": ["0", "1", "2", "3"] }
+          }
+        },
+        {
+          "name": "Spot Illustrations",
+          "firstVariantId": "223:3916",
+          "variantCount": 14,
+          "properties": {
+            "spec": { "type": "enum", "values": ["Account Managment", "Building", "Chat_with_PM", "Documents_sharing", "Profile&Notifications", "Speaker", "community post", "general announcement", "general_exploration", "map locations", "new requests", "spec14", "tickets", "urgent announcement"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "nodeId": "223:4542",
+      "componentSets": [
+        {
+          "name": "Highlight Card",
+          "firstVariantId": "223:4554",
+          "variantCount": 16,
+          "properties": {
+            "type": { "type": "enum", "values": ["highlights"] },
+            "size": { "type": "enum", "values": ["M-S", "XS"] },
+            "specific": { "type": "enum", "values": ["announcement", "request"] },
+            "status": { "type": "enum", "values": ["enabled", "hover"] },
+            "extra": { "type": "enum", "values": ["DIRECT", "direct", "direct_CTA", "general", "general_CTA", "status bar", "tag"] }
+          }
+        },
+        {
+          "name": "Simple Card",
+          "firstVariantId": "223:4646",
+          "variantCount": 7,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "M-S", "S", "XS"] },
+            "status": { "type": "enum", "values": ["enabled", "hover"] }
+          }
+        },
+        {
+          "name": "Basic Card",
+          "firstVariantId": "223:4692",
+          "variantCount": 10,
+          "properties": {
+            "type": { "type": "enum", "values": ["basic"] },
+            "size": { "type": "enum", "values": ["M", "M-S", "S"] },
+            "specific": { "type": "enum", "values": ["big illustration", "big image", "big only text", "small image", "small only text"] },
+            "status": { "type": "enum", "values": ["Hover", "enabled", "hover"] }
+          }
+        },
+        {
+          "name": "Sized Card",
+          "firstVariantId": "223:4772",
+          "variantCount": 6,
+          "properties": {
+            "dimension": { "type": "enum", "values": ["big", "small"] },
+            "size": { "type": "enum", "values": ["M", "M-S", "S", "XS"] },
+            "status": { "type": "enum", "values": ["enabled", "hover"] }
+          }
+        },
+        {
+          "name": "Card M/S",
+          "firstVariantId": "223:4806",
+          "variantCount": 2,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "S"] }
+          }
+        },
+        {
+          "name": "Content Card",
+          "firstVariantId": "223:4857",
+          "variantCount": 12,
+          "properties": {
+            "content": { "type": "enum", "values": ["only text", "text+image"] },
+            "size": { "type": "enum", "values": ["M", "S", "XS"] },
+            "status": { "type": "enum", "values": ["enabled", "hover"] }
+          }
+        },
+        {
+          "name": "Tenant Card",
+          "firstVariantId": "223:5008",
+          "variantCount": 33,
+          "properties": {
+            "type": { "type": "enum", "values": ["added place", "other tenants added"] },
+            "content": { "type": "enum", "values": ["agreement", "no agreement"] },
+            "size": { "type": "enum", "values": ["M", "M simplified", "S", "S simplified", "XS", "XS simplified"] },
+            "status": { "type": "enum", "values": ["default", "hover", "pressed"] }
+          }
+        },
+        {
+          "name": "Map Card",
+          "firstVariantId": "223:5397",
+          "variantCount": 7,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "S", "XS"] },
+            "type": { "type": "enum", "values": ["Dashboard", "google map V1", "google map V2"] }
+          }
+        },
+        {
+          "name": "PM View Cards",
+          "firstVariantId": "225:12835",
+          "variantCount": 2,
+          "properties": {},
+          "note": "Slash-named: cards/tenant contacts/XS/PM view, cards/tenant card/XS/PM view"
+        },
+        {
+          "name": "Request Card",
+          "firstVariantId": "223:5458",
+          "variantCount": 2,
+          "properties": {
+            "type": { "type": "enum", "values": ["request card"] },
+            "size": { "type": "enum", "values": ["XS"] },
+            "spec": { "type": "enum", "values": ["PM view"] },
+            "status": { "type": "enum", "values": ["default", "new"] }
+          }
+        },
+        {
+          "name": "Community / Announcement Card",
+          "firstVariantId": "223:5468",
+          "variantCount": 20,
+          "properties": {
+            "size": { "type": "enum", "values": ["M", "S", "XS"] },
+            "type": { "type": "enum", "values": ["community post", "general announcement", "tenant announcement", "urgent announcement"] },
+            "status": { "type": "enum", "values": ["enabled", "hover"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text Styles",
+      "nodeId": "223:6359",
+      "componentSets": [],
+      "note": "Reference frame only. Contains 20 text style specimens (Callout 56, H1-H5, Body, Button, Caption, Tag at M/S and XS sizes). Already implemented as CSS utility classes in src/index.css."
+    },
+    {
+      "name": "Menu Mobile",
+      "nodeId": "223:6385",
+      "componentSets": [
+        {
+          "name": "Mobile Menu",
+          "firstVariantId": "223:6389",
+          "variantCount": 7,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["XS"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["+ icon", "activated", "default", "navigation", "new notification", "notification default", "notifications"], "suggestedName": "variant" }
+          }
+        },
+        {
+          "name": "Tab Bar",
+          "firstVariantId": "223:6445",
+          "variantCount": 2,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["XS"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["t&b"], "suggestedName": "type" },
+            "Property 3": { "type": "enum", "values": ["buildings active", "tenants active"], "suggestedName": "activeTab" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Form",
+      "nodeId": "223:6456",
+      "componentSets": [
+        {
+          "name": "Input Field / Attachment",
+          "firstVariantId": "223:6460",
+          "variantCount": 6,
+          "properties": {
+            "Type": { "type": "enum", "values": ["Inputfield", "attachment"] },
+            "Name": { "type": "enum", "values": ["active", "confirmed", "enabled", "enabled white", "hover", "link"], "suggestedName": "status" }
+          }
+        },
+        {
+          "name": "Input Field Simple",
+          "firstVariantId": "223:6482",
+          "variantCount": 2,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["Inputfield"], "suggestedName": "type" },
+            "Property 2": { "type": "enum", "values": ["enabled", "enabled white"], "suggestedName": "variant" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chips",
+      "nodeId": "223:6488",
+      "componentSets": [
+        {
+          "name": "Chip",
+          "firstVariantId": "223:6492",
+          "variantCount": 6,
+          "properties": {
+            "content": { "type": "enum", "values": ["text+icon"] },
+            "status": { "type": "enum", "values": ["enabled", "selected", "disabled"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat Items",
+      "nodeId": "223:6512",
+      "componentSets": [
+        {
+          "name": "Chat Message",
+          "firstVariantId": "223:6514",
+          "variantCount": 6,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["M", "XS"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["GRE msg", "TENANT msg", "enable", "tenant msg"], "suggestedName": "type" }
+          }
+        },
+        {
+          "name": "Chat Profile",
+          "firstVariantId": "225:12551",
+          "variantCount": 3,
+          "properties": {
+            "Chat profile": { "type": "enum", "values": ["FM", "Image", "TE"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Widget",
+      "nodeId": "223:6538",
+      "componentSets": [
+        {
+          "name": "Request Widget",
+          "firstVariantId": "223:6542",
+          "variantCount": 7,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["M", "S", "XS"], "suggestedName": "size" },
+            "Property 2": { "type": "enum", "values": ["request"], "suggestedName": "type" },
+            "Property 3": { "type": "enum", "values": ["enabled", "enabled empty", "hover"], "suggestedName": "status" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dropdown",
+      "nodeId": "223:6626",
+      "componentSets": [
+        {
+          "name": "Dropdown",
+          "firstVariantId": "223:6630",
+          "variantCount": 7,
+          "properties": {
+            "close/open": { "type": "enum", "values": ["Open", "close", "closed", "open"] },
+            "state": { "type": "enum", "values": ["enabled", "hover", "list", "selected"] }
+          }
+        },
+        {
+          "name": "XS Dropdown",
+          "firstVariantId": "225:12306",
+          "variantCount": 1,
+          "properties": {},
+          "note": "Slash-named: XS/closed/enabled"
+        }
+      ]
+    },
+    {
+      "name": "Paginator",
+      "nodeId": "223:6660",
+      "componentSets": [
+        {
+          "name": "Paginator",
+          "firstVariantId": "223:6664",
+          "variantCount": 2,
+          "properties": {
+            "Dimension": { "type": "enum", "values": ["M-S", "XS"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Google Map Elements",
+      "nodeId": "223:6678",
+      "componentSets": [
+        {
+          "name": "Zoom Element",
+          "firstVariantId": "223:6681",
+          "variantCount": 1,
+          "properties": {}
+        },
+        {
+          "name": "Map Disclaimer",
+          "firstVariantId": "223:6686",
+          "variantCount": 1,
+          "properties": {}
+        },
+        {
+          "name": "Expand",
+          "firstVariantId": "223:6696",
+          "variantCount": 1,
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "name": "Tags",
+      "nodeId": "223:6699",
+      "componentSets": [
+        {
+          "name": "Tag",
+          "firstVariantId": "223:6702",
+          "variantCount": 2,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["S", "XS"], "suggestedName": "size" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "nodeId": "223:6706",
+      "componentSets": [
+        {
+          "name": "Table",
+          "firstVariantId": "228:42338",
+          "variantCount": 3,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["S&R", "dashboard"], "suggestedName": "type" },
+            "Property 2": { "type": "enum", "values": ["default", "empty"], "suggestedName": "state" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat Mockup M",
+      "nodeId": "223:6893",
+      "componentSets": [
+        {
+          "name": "Chat Mockup M",
+          "firstVariantId": "223:6897",
+          "variantCount": 8,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["FM", "PM", "TE"], "suggestedName": "role" },
+            "Property 2": { "type": "enum", "values": ["closed", "on hold", "refused"], "suggestedName": "status" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat Mockup XS",
+      "nodeId": "223:7672",
+      "componentSets": [
+        {
+          "name": "Chat Mockup XS",
+          "firstVariantId": "223:7676",
+          "variantCount": 8,
+          "properties": {
+            "Property 1": { "type": "enum", "values": ["FM", "PM", "TE"], "suggestedName": "role" },
+            "Property 2": { "type": "enum", "values": ["closed", "on hold", "refused"], "suggestedName": "status" }
+          }
+        }
+      ]
+    }
+  ]
+}
