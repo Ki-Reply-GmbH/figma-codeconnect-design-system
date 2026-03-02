@@ -1,0 +1,16 @@
+{
+  "codeConnect": {
+    "parser": "react",
+    "label": "React",
+    "language": "typescript",
+    "include": ["src/components/**"],
+    "exclude": ["test/**", "docs/**", "dist/**"],
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/21fetEK2ibhq1gwmu2s9SL/Hackathon---Generali-Library",
+    "importPaths": {
+      "src/components/*": "@generali/components"
+    },
+    "paths": {
+      "@generali/components/*": ["src/components/*"]
+    }
+  }
+}
